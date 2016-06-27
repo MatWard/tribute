@@ -12,30 +12,33 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<style>
-body { 
-  background: url(images/victorian.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-	#pic {
-		margin-bottom: 20px;
-	}
-	#width 
-		{max-width: 85%;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Tesla</title>
 </head>
 
 <body>
 
-<!--Menu items-->
-<div>
+
+<!--NavBar-->
+<nav class="navbar navbar-fixed-top">
+<div class="container">
+
+
+    <div class="navbar-header">
+      <a class="navbar-brand"<a href="#">Nikola Tesla</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#home">Home</a></li>
+      <li class="active"><a href="#test">Quote</a></li>
+      <li class="active"><a href="#time">Timeline</a></li> 
+      <li class="active"><a href="#video">Video</a></li> 
+    </ul>
+  </div>
+</nav>
+</div>
 
 <div class="container" id="width" style="background-color: rgba(218, 213, 219, .9)">
+<p style="position:relative;"><a name="home" style="position:absolute; top: -50px;"></a>
 <h1 class="text-center">Nikola Tesla</h1>
 <h3 class="text-center">The Forgotten Man</h3>
 <div class="row" id="pic">
@@ -58,17 +61,19 @@ body {
 </div>
 <div class="row" id="quote">
 <div class="col-sm-12">
-</br>
-<br>
-<hr width="40%">
-</br>
-<img src="images/quote.jpg" width="85%" class="img-rounded center-block img-responsive" alt="color portait of Nikola Tesla"/>
 
-<br>
 <hr width="40%">
-<br>
+</br>
+<p style="position:relative;"><a name="test" style="position:absolute; top: -50px;"></a>
+<img src="images/quote.jpg" width="85%" class="img-rounded center-block img-responsive" alt="color portait of Nikola Tesla"/>
+<a name="time"></a>
+
+<div style="text-align: center;">
+<a href="#">Back to Top</a>
+</div>
+<hr width="40%">
 <!--Need to change below to bootstrap list to gain better list properties & need to cite author of list-->
-<h3 class="text-center">Nikola Tesla Timeline</h3>
+<h3 class="text-center"><a name="time">Nikola Tesla Timeline</a></h3>
 <div class="row">
 <div class="col-sm-2">
 </div>
@@ -96,7 +101,32 @@ body {
 <li>1943. Nikola Tesla died (7 January) in the New York hotel called “The New Yorker”. His funeral took place on 12 January.</li>
 </ul>
 <footer>Source: Elektroprivreda Srbije</footer>
+<hr width="20%>"
+</div>
+<div style="text-align: center;">
+<a href="#">Back to Top</a>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<p style="position:relative;"><a name="video" style="position:absolute; top: -50px;"></a>
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iEJNJ0rFSe8"></iframe>
+	</div>
+	</div>
+	</div>
+<div class="row">
+<div class="col-sm-12">
+	<h5 class="text-center">For more information on Nikola Tesla click <a href="https://worldhistoryproject.org/topics/nikola-tesla">here</a></h5>
 
+</div>
+</div>
+<br>
+<div class="row">
+
+<div class="col-sm-12">
+<p class="text-center" style="color: gray">Coded by Matthew Ward</p>
+
+</div>
 </div>
 </div>
 </div>
