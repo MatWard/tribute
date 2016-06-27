@@ -1,0 +1,32 @@
+body { 
+  	 background: url(images/victorian.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	#pic {
+		margin-bottom: 20px;
+	}
+	#width 
+		{max-width: 85%;
+			margin-top: 48px;
+	}
+	nav > .container {
+		background-color: green;
+		background: rgb(203, 198, 202);
+		border-color: rgb(203, 198, 202);
+	}
+	nav > .container {
+		:background: rgb(203, 198, 202);
+	}
+
+nav > .container {width: 85%;}
+#time {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+#youtube {
+	padding-top: 50px;
+	margin-top: -50px;
+}
